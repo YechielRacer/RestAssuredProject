@@ -3,16 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.employeeapi.testCases.GET_All_Employees">
+      <class name="serializationDeserialization.VideoGameAPITestWithSerialization">
         <methods>
-          <include name="setup"/>
-          <include name="getAllEmployees"/>
-          <include name="checkStatusCode"/>
-          <include name="checkContentType"/>
-          <include name="tearDown"/>
-          <include name="checkStatusLine"/>
+          <include name="testVideoGameSerializationXML"/>
         </methods>
-      </class> <!-- com.employeeapi.testCases.GET_All_Employees -->
+      </class> <!-- serializationDeserialization.VideoGameAPITestWithSerialization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
